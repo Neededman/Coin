@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "https://localhost:7038/swagger/index.html",
+            "webRoot": "${workspaceFolder}/WebApiDemo"
+        },
+        {
+            "name": "WebApiDemo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/WebApiDemo/WebApiDemo/bin/Debug/net8.0/WebApiDemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/WebApiDemo/WebApiDemo",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/WebApiDemo/Views"
+            }
+        }
+    ]
+}

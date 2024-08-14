@@ -7,4 +7,14 @@ Vue (发音为 /vjuː/，类似 view) 是一款用于构建用户界面的 JavaS
 熟悉命令行
 已安装 18.3 或更高版本的 Node.js
 
-![alt text](Resources/image.png)
+![alt text](Resources/nodejs_version.png)
+
+使用命令行
+npm create vue@latest
+
+安装完成
+cd VueDemo
+npm install
+npm run format
+npm run dev
+
